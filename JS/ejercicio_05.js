@@ -4,7 +4,7 @@
 // • devuelva true si todas las llamadas al callback devolvieron true
 
 function every(array, callback) {
-    newArray=[];
+    
     for (let x = 0; x < array.length; x++) {
         if (!callback(array[x])) {
             return false;    
