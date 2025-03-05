@@ -1,0 +1,15 @@
+[{
+    "ciudad":"bucaramanga",
+    "genero":"masculino",
+    "nombre":"ronald"
+},
+{
+    "ciudad":"medellin",
+    "genero":"femenino",
+    "nombre":"ana"
+},
+{
+    "ciudad":"bucaramanga",
+    "genero":"femenino",
+    "nombre":"andrea"
+}]
