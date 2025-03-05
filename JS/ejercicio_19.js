@@ -1,6 +1,5 @@
-//Crea tres Promises que se resuelvan después de diferentes intervalos de tiempo y luego
-//utilice Promise.all() para mostrar un mensaje cuando todas se hayan resuelto.
-
+//Realiza tres Promises, algunas de las cuales se resuelvan y otras se rechacen. Utiliza
+//Promise.allSettled() para obtener información sobre el estado de todas las Promises.
 const primer_promesa=new Promise((resolve) => {
     setTimeout(() => {
         resolve("Primer promesa resuelta");
@@ -9,7 +8,7 @@ const primer_promesa=new Promise((resolve) => {
 
 const segunda_promesa=new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve("segunda promesa resuelta");
+        reject("segunda promesa no resuelta");
     }, 2000);
 })
 
