@@ -18,6 +18,6 @@ const tercer_promesa=new Promise((resolve) => {
     }, 3000);
 })
 
-Promise.all([primer_promesa,segunda_promesa,tercer_promesa]).then((rta)=>{
+Promise.allSettled([primer_promesa,segunda_promesa,tercer_promesa]).then((rta)=>{
     console.log(rta);
 })
