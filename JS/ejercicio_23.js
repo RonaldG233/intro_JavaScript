@@ -64,3 +64,6 @@ console.log(usuario.edad);
 console.log(usuario.nombre); 
 console.log(usuario.correo);
 console.log(usuario.fechaNacimiento);
+
+
+
